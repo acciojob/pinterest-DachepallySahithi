@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.content {
+    flex: 1;
+    text-align: center;
+}
+
+.explore-now {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #007bff; /* Blue background */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
